@@ -234,22 +234,15 @@ footer {
       font-size: 0.81rem;
     }
   }
-  .section-how-works {
-    margin-top: -5%;
-  }
 
   .section-video {
     background-size: contain;
-    background-attachment: fixed;
-    .text {
-      h1 {
-        font-size: 1.4rem;
-      }
-    }
+    background-attachment: scroll;
+    background-image: url("./images/caio-banner.jpg");
   }
   .section-depoiments {
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
