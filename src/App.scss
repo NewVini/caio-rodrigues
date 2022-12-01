@@ -198,7 +198,11 @@ footer {
     margin-top: -5%;
   }
   .section-video{
-    background-size: auto;
+    .text {
+      h1{
+        font-size: 1.4rem;
+      }
+    }
   }
   .section-depoiments{
     background-size: auto;
