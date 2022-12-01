@@ -227,8 +227,7 @@ footer {
   }
 }
 
-// safari 10.1+
-@media not all and (min-resolution:.001dpcm) {
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
   .button-action {
     font-size: 0.8rem;
     &:hover {
@@ -238,12 +237,19 @@ footer {
   .section-how-works {
     margin-top: -5%;
   }
+
   .section-video {
+    background-size: contain;
+    background-attachment: fixed;
     .text {
       h1 {
         font-size: 1.4rem;
       }
     }
+  }
+  .section-depoiments {
+    background-size: contain;
+    background-attachment: fixed;
   }
 }
 
