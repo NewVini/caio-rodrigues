@@ -258,63 +258,63 @@ footer {
 
 // SAFARI
 // 6.1 ate 10.0
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-  .button-action {
-    font-size: 0.8rem;
+// @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+//   .button-action {
+//     font-size: 0.8rem;
 
-    &:hover {
-      font-size: 0.81rem;
-    }
-  }
+//     &:hover {
+//       font-size: 0.81rem;
+//     }
+//   }
 
-  .section-how-works {
-    margin-top: -5%;
-  }
+//   .section-how-works {
+//     margin-top: -5%;
+//   }
 
-  .section-video {
-    background-size: contain;
-    background-attachment: scroll;
+//   .section-video {
+//     background-size: contain;
+//     background-attachment: scroll;
 
-    .text {
-      h1 {
-        font-size: 1.4rem;
-      }
-    }
-  }
+//     .text {
+//       h1 {
+//         font-size: 1.4rem;
+//       }
+//     }
+//   }
 
-  .section-depoiments {
-    background-size: contain;
-    background-attachment: scroll;
-  }
-}
+//   .section-depoiments {
+//     background-size: contain;
+//     background-attachment: scroll;
+//   }
+// }
 
 // safari 10.1+
-@media not all and (min-resolution:.001dpcm) {
-  .button-action {
-    font-size: 0.8rem;
+// @media not all and (min-resolution:.001dpcm) {
+//   .button-action {
+//     font-size: 0.8rem;
 
-    &:hover {
-      font-size: 0.81rem;
-    }
-  }
+//     &:hover {
+//       font-size: 0.81rem;
+//     }
+//   }
 
-  .section-how-works {
-    margin-top: -5%;
-  }
+//   .section-how-works {
+//     margin-top: -5%;
+//   }
 
-  .section-video {
-    .text {
-      h1 {
-        font-size: 1.4rem;
-      }
-    }
-  }
+//   .section-video {
+//     .text {
+//       h1 {
+//         font-size: 1.4rem;
+//       }
+//     }
+//   }
 
-  .section-depoiments {
-    background-size: contain;
-    background-attachment: fixed;
-  }
-}
+//   .section-depoiments {
+//     background-size: contain;
+//     background-attachment: fixed;
+//   }
+// }
 
 @keyframes shine {
   0% {
