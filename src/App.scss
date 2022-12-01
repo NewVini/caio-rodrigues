@@ -212,7 +212,7 @@ footer {
   .section-video {
     background-size: contain;
     background-attachment: fixed;
-
+    background-image: url("./images/caio-banner.jpg");
     .text {
       h1 {
         font-size: 1.4rem;
@@ -225,36 +225,6 @@ footer {
     background-attachment: fixed;
   }
 }
-
-@media  (mmax-width: 1024px) { 
-    .button-action {
-      font-size: 0.8rem;
-  
-      &:hover {
-        font-size: 0.8rem;
-      }
-    }
-  
-    .section-how-works {
-      margin-top: -5%;
-    }
-  
-    .section-video {
-      background-size: contain;
-      background-attachment: fixed;
-  
-      .text {
-        h1 {
-          font-size: 1.4rem;
-        }
-      }
-    }
-  
-    .section-depoiments {
-      background-size: auto;
-      background-attachment: fixed;
-    }
-  }
 
 @keyframes shine {
   0% {
