@@ -193,6 +193,9 @@ footer {
 @media(max-width: 768px) {
   .button-action {
     font-size: 1.1rem;
+    &:hover {
+      font-size: 1.2rem;
+    }
   }
   .section-how-works {
     margin-top: -5%;
