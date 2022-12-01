@@ -213,6 +213,38 @@ footer {
     background-size: contain;
     background-attachment: fixed;
     background-image: url("./images/caio-banner.jpg");
+
+    .text {
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .section-depoiments {
+    background-size: auto;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-device-width: 600px) {
+  .button-action {
+    font-size: 1.1rem;
+
+    &:hover {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section-how-works {
+    margin-top: -5%;
+  }
+
+  .section-video {
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: url("./images/caio-banner.jpg");
+
     .text {
       h1 {
         font-size: 1.4rem;
