@@ -191,8 +191,17 @@ footer {
 }
 
 @media(max-width: 768px) {
+  .button-action {
+    font-size: 1.1rem;
+  }
   .section-how-works {
     margin-top: -5%;
+  }
+  .section-video{
+    background-size: auto;
+  }
+  .section-depoiments{
+    background-size: auto;
   }
 }
 
