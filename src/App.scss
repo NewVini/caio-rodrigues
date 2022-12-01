@@ -226,35 +226,36 @@ footer {
   }
 }
 
-@media only screen and (max-width: 362px) {
-  .button-action {
-    font-size: 0.8rem;
-
-    &:hover {
-      font-size: 0.81rem;
-    }
-  }
-
-  .section-how-works {
-    margin-top: -5%;
-  }
-
-  .section-video {
-    background-size: contain;
-    background-attachment: fixed;
-
-    .text {
-      h1 {
-        font-size: 1.4rem;
+@media not all and (min-resolution:.001dpcm) { 
+  @media {
+    .button-action {
+      font-size: 1.1rem;
+  
+      &:hover {
+        font-size: 1.2rem;
       }
     }
-  }
-
-  .section-depoiments {
-    background-size: auto;
-    background-attachment: fixed;
-  }
-}
+  
+    .section-how-works {
+      margin-top: -5%;
+    }
+  
+    .section-video {
+      background-size: contain;
+      background-attachment: fixed;
+  
+      .text {
+        h1 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  
+    .section-depoiments {
+      background-size: auto;
+      background-attachment: fixed;
+    }
+  }}
 
 @keyframes shine {
   0% {
