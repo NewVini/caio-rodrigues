@@ -5,6 +5,9 @@ $dark-green: #006e1d;
 $hover-dark-green: #00af2f;
 
 * {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -198,10 +201,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .button-action {
-    font-size: 1.1rem;
+    font-size: 1rem;
 
     &:hover {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
