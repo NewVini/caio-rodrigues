@@ -237,11 +237,12 @@ footer {
 
   .section-video {
     background-image: url("./images/caio-banner.jpg");
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
+    background-position: top;
   }
   .section-depoiments {
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
   }
 }
