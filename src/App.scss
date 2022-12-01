@@ -227,7 +227,6 @@ footer {
 }
 
 @media not all and (min-resolution:.001dpcm) { 
-  @media {
     .button-action {
       font-size: 1.1rem;
   
@@ -255,7 +254,7 @@ footer {
       background-size: auto;
       background-attachment: fixed;
     }
-  }}
+  }
 
 @keyframes shine {
   0% {
