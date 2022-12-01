@@ -227,7 +227,7 @@ footer {
   }
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:3) {
   .button-action {
     font-size: 0.8rem;
     &:hover {
