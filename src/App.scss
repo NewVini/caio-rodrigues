@@ -256,69 +256,6 @@ footer {
   }
 }
 
-// SAFARI
-// 6.1 ate 10.0
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-  .button-action {
-    font-size: 0.8rem;
-
-    &:hover {
-      font-size: 0.81rem;
-    }
-  }
-
-  .section-how-works {
-    margin-top: -5%;
-  }
-
-  .section-video {
-    background-size: contain;
-    background-attachment: fixed;
-
-    .text {
-      h1 {
-        font-size: 1.4rem;
-      }
-    }
-  }
-
-  .section-depoiments {
-    background-image: url("./images/dogs-of-various-sizes-close-up-web-banner-susan-schmitz.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-// safari 10.1+
-// @media not all and (min-resolution:.001dpcm) {
-//   .button-action {
-//     font-size: 0.8rem;
-
-//     &:hover {
-//       font-size: 0.81rem;
-//     }
-//   }
-
-//   .section-how-works {
-//     margin-top: -5%;
-//   }
-
-//   .section-video {
-//     .text {
-//       h1 {
-//         font-size: 1.4rem;
-//       }
-//     }
-//   }
-
-//   .section-depoiments {
-//     background-size: contain;
-//     background-attachment: fixed;
-//   }
-// }
-
 @keyframes shine {
   0% {
     background: $yellow;
