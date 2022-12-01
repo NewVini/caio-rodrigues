@@ -236,13 +236,13 @@ footer {
   }
 
   .section-video {
-    background-size: contain;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
     background-image: url("./images/caio-banner.jpg");
   }
   .section-depoiments {
     background-size: contain;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
