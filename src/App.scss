@@ -46,6 +46,7 @@ $hover-dark-green: #00af2f;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
+
   iframe {
     border: solid 1px $yellow;
     border-radius: 20px;
@@ -123,13 +124,15 @@ $hover-dark-green: #00af2f;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
+
   b {
     font-size: 1.3rem;
   }
+
   .module-box {
     padding: 15px;
     border-radius: 15px;
-    background: linear-gradient(45deg,#ffdb00, #fab700);
+    background: linear-gradient(45deg, #ffdb00, #fab700);
     box-shadow: 0px 6px 20px 3px #fab700;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -148,6 +151,7 @@ $hover-dark-green: #00af2f;
   img {
     width: 300px;
   }
+
   .margin-negative {
     margin-top: -70px;
   }
@@ -155,8 +159,9 @@ $hover-dark-green: #00af2f;
 
 .section-faq {
   padding-bottom: 20px;
-  background-color: #000; 
+  background-color: #000;
   padding-bottom: 30px;
+
   h1 {
     color: #fff;
   }
@@ -173,6 +178,7 @@ $hover-dark-green: #00af2f;
   text-shadow: 9px 3px 17px $yellow;
   padding: 55px;
   padding-bottom: 85px;
+
   img {
     margin-top: 8px;
     width: 100%;
@@ -193,21 +199,25 @@ footer {
 @media only screen and (max-width: 768px) {
   .button-action {
     font-size: 1.1rem;
+
     &:hover {
       font-size: 1.2rem;
     }
   }
+
   .section-how-works {
     margin-top: -5%;
   }
-  .section-video{
+
+  .section-video {
     .text {
-      h1{
+      h1 {
         font-size: 1.4rem;
       }
     }
   }
-  .section-depoiments{
+
+  .section-depoiments {
     background-size: auto;
     background-attachment: fixed;
   }
@@ -216,26 +226,86 @@ footer {
 @media only screen and (max-width: 362px) {
   .button-action {
     font-size: 0.8rem;
+
     &:hover {
       font-size: 0.81rem;
     }
   }
+
   .section-how-works {
     margin-top: -5%;
   }
-  .section-video{
+
+  .section-video {
     .text {
-      h1{
+      h1 {
         font-size: 1.4rem;
       }
     }
   }
-  .section-depoiments{
+
+  .section-depoiments {
     background-size: auto;
     background-attachment: fixed;
   }
 }
 
+// SAFARI
+// 6.1 ate 10.0
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+  .button-action {
+    font-size: 0.8rem;
+
+    &:hover {
+      font-size: 0.81rem;
+    }
+  }
+
+  .section-how-works {
+    margin-top: -5%;
+  }
+
+  .section-video {
+    .text {
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .section-depoiments {
+    background-size: auto;
+    background-attachment: fixed;
+  }
+}
+
+// safari 10.1+
+@media not all and (min-resolution:.001dpcm) {
+  .button-action {
+    font-size: 0.8rem;
+
+    &:hover {
+      font-size: 0.81rem;
+    }
+  }
+
+  .section-how-works {
+    margin-top: -5%;
+  }
+
+  .section-video {
+    .text {
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .section-depoiments {
+    background-size: auto;
+    background-attachment: fixed;
+  }
+}
 
 @keyframes shine {
   0% {
