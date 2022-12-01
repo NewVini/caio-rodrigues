@@ -211,7 +211,7 @@ footer {
 
   .section-video {
     background-size: contain;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
     .text {
       h1 {
@@ -222,7 +222,7 @@ footer {
 
   .section-depoiments {
     background-size: auto;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
@@ -241,7 +241,7 @@ footer {
 
   .section-video {
     background-size: contain;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
     .text {
       h1 {
@@ -252,7 +252,7 @@ footer {
 
   .section-depoiments {
     background-size: auto;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
